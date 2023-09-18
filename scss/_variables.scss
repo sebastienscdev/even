@@ -1,0 +1,244 @@
+// Fonts color
+
+$main-font-color: #4A4A4A;
+$font-picto : #8A8A8A;
+$menu-font-color:#A8A8A7;
+$medium-grey:#BEBEBF;
+$light-grey:#DFDFDF;
+$white-font-color: #FFFFFF;
+$ccpm-font-color: #D72C5B;
+$ccpm-font-color-hover: #A34061;
+$cf-font-color: #2AA7DB;
+$cf-font-color-hover: #366B9E;
+$success-color: #155724;
+$alert-color: #FF6D84;
+$compte-type-depense: #D72C5B;
+$compte-type-recette: #41A927;
+
+// Fonts & color secondary
+
+$ev-primary-color : #FF6D84;
+$ev-green-color : #40A926;
+$ev-green-color-light : #5FDA7D;
+$ev-green-color-darken : #59c375;
+$ev-orange-color : #FFCD7C;
+
+// Fonts & pastel color
+
+$ev-primary-pastel-color : #FFBAC5;
+$ev-green-pastel-color : #C6E6BD;
+$ev-grey-pastel-color : #C9C9C9;
+
+// Icon color
+$ev-icon-color : #E9D68B;
+$ev-secondary-icon-color : #8AC1AD;
+$ev-third-icon-color : #BFC886;
+$ev-fourth-icon-color : #64B3C1;
+$ev-fifth-icon-color : #DA95A9;
+$ev-sixth-icon-color : #E58D7D;
+$ev-seventh-icon-color : #A8A7A7;
+
+// Icon color New
+$ev-eight-icon-color : #8C5162;
+$ev-nine-icon-color : #E5C86C;
+
+// Color
+
+$white-background-color: #FFFFFF;
+$white: #FFFFFF;
+$varient-background-color:#F1F2F8;
+$varient-light-greyblue: #DEE0EC;
+$varient-box-shadow-color : rgba(198,203,223,.5);
+$ev-dark-grey:#4A4A4A;
+$border-bottom-table: #A8A8A7;
+$ev-medium-dark-grey :#8C8C8C;
+$ev-medium-grey:#BEBEBF;
+$ev-light-grey:#DFDFDF;
+$ccpm-color: #D72C5B;
+$primary-color: #D72C5B !default;
+$cf-color: #2AA7DB;
+$ev-light-grey-darken: darken(#DFDFDF, 5%);
+$ev-light-medium-grey-darken: darken(#BEBEBF, 5%);
+$ev-border-left-active-color: #4A4A4A !default;
+$ev-border-left-transparent-color: transparent !default;
+$ev-affectation-color : #FFD9C3;
+$ev-affectation-border-color : #FF7600;
+
+// color-active
+$badge-btn-color-active: #2AA7DB !default;
+$ev-progress-bar-color-default: #2AA7DB !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $white-background-color !default;
+$body-bg-varient: $varient-background-color !default;
+$body-text-align: unset !default;
+
+// Buttons
+//
+// For each of even's buttons, define text, background, and border color.
+
+$ev-btn-padding-none: 0rem !default;
+$ev-btn-padding-y: .8rem !default;
+$ev-btn-padding-x: 2.1rem !default;
+$ev-btn-x-small-padding-y: .6rem !default;
+$ev-btn-x-small-padding-x: .9rem !default;
+$ev-btn-small-padding-y: .65rem !default;
+$ev-btn-small-padding-x: 1.2rem !default;
+$ev-btn-medium-padding-y: .9rem !default;
+$ev-btn-medium-padding-x: 4.5rem !default;
+$ev-btn-large-padding-y: .8rem !default;
+$ev-btn-large-padding-x: 4.5rem !default;
+$ev-btndropdown-padding-y: 1rem !default;
+$ev-btndropdown-padding-x: 2.6rem !default;
+$ev-btn-disabled-opacity: .3 !default;
+
+// Card
+//
+// for each card default padding 
+$ev-card-padding: 1.3rem 1.5rem !default;
+$ev-card-pwa-padding: 1.2rem 1.2rem !default;
+$ev-card-content-padding: .3rem 0rem !default;
+
+// for each card sreen size
+$bp-small: 48em; // 768px
+$bp-medium: 64em; // 1024px
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+
+// Dropdown
+//
+// Particular case of dropdwon like nature filter for exemple
+
+$font-size: 1rem; // A dégager et remplacer par des rem
+$tab-height: 61px;
+$margin-desktop: 23px;
+$margin-filters: 8px;
+$border-bottom-height: 2px;
+$open-tab-height: $tab-height+$margin-filters - $border-bottom-height; // 2px correspondant à la bordure
+$width-filters: 210px;
+$filter-radius: 10px;
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$border-none: 0px !default;
+$border-width: 1px !default;
+$border-width-small: 2px !default;
+$border-color:#A8A8A7 !default;
+$border-user-color:#A8A8A7 !default;
+$border-radius-base: 1rem !default;
+$border-radius-small: .6rem !default;
+$border-radius-large: 4.5rem !default;
+$box-shadow: rgba($varient-background-color, .7) !default;
+$box-shadow-inset: inset 0 1px 2px $varient-background-color !default;
+
+// Allows for customizing button radius independently from global border radius
+
+$ev-btn-border-radius: $border-radius-large !default;
+
+
+// Tables
+//
+// Customizes the `.table` component with basic values, each used across all table variations.
+
+// scss-docs-start table-variables
+$table-cell-padding-y:        .5rem !default;
+$table-cell-padding-x:        .5rem !default;
+$table-cell-padding-y-sm:     .25rem !default;
+$table-cell-padding-x-sm:     .25rem !default;
+
+$table-cell-vertical-align:   top !default;
+
+$table-color: $varient-background-color !default;
+$table-border-color: $border-color !default;
+$table-striped-color: $table-color !default;
+
+// NavBar
+
+$navbar-border-bottom-color: #A8A8A7 !default;
+$navbar-item-border-bottom-color-active: #D72C5B !default;
+$navbar-item-text-color-active: #D72C5B !default;
+
+// Nav
+
+$nav-link-text-color: #A8A8A7 !default;
+$nav-link-text-color-active: #D72C5B !default;
+
+// Buttons primary
+
+$button-primary-color: #FF6D84;
+$button-primary-bg-color: #FF6D84;
+$button-primary-bg-hover-color: #ED3D58;
+
+// Buttons outline
+
+$button-outline-color: #4A4A4A;
+$button-outline-bg-color: transparent;
+$button-outline-bg-hover-color: #F5F5F5;
+
+// Buttons small
+
+$ev-btn-small-color: $ev-light-grey;
+$ev-btn-small-bg-color: $ev-light-grey;
+$ev-btn-small-bg-hover-color: $ev-light-grey;
+
+// Font family
+
+$btn-font-family: 'CircularStd', sans-serif;
+$btn-icon-family: 'ev-font', sans-serif;
+
+// Font Weight
+
+$font-weight-book: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+$font-weight-black: 800;
+
+// Font Style
+
+$font-italic: italic;
+
+// Font Size
+
+$font-size-base: 1rem;
+$font-size-primary-btn: 1rem;
+$font-size-x-small-btn: 0.8rem;
+$font-size-small-btn: 0.9rem;
+$font-size-medium-btn: 1rem;
+$font-size-large-btn: 1rem;
+$font-size-outline-btn: 1rem;
+$font-size-suggestion-btn : 0.8rem;
+
+// Line height
+$line-height-default : 1.2;
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-ev-btn-pointers: true !default;
+
+// Forms
+
+$forms-padding-5: 5px;
+$forms-padding-10: 10px;
+$forms-padding-15: 15px;
+$forms-padding-20: 20px;
+
+$forms-margin-5: 5px;
+$forms-margin-10: 10px;
+$forms-margin-15: 15px;
+$forms-margin-20: 20px;
+
+// Spacing
+//
+// Control the default styling of most ev elements by modifying these
+// variables. Mostly focused on spacing.
+
+$spacer: 1rem !default;

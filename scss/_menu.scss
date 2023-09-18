@@ -1,0 +1,139 @@
+#user-panel {
+    width: 190px;
+    display: flex;
+    overflow: hidden;
+    position: static;
+    background-color: $white;
+    padding: 1.6rem 2.1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(198, 203, 223, .7);
+
+    &__header {
+        flex-direction: column;
+        display: flex;
+    }
+
+    &__open {
+        overflow: hidden;
+        position: static;
+        background-color: $white;
+        padding: 1.6rem 2.1rem 0.8rem 2.1rem;
+        box-shadow: 0 0 5px rgba(198, 203, 223, .7);
+    }
+}
+
+.user-panel {
+    &__content {
+        flex-direction: column;
+        display: flex;
+        border-bottom: $border-width solid $border-user-color;
+        margin: 1.4rem .7rem 0;
+        line-height: 2.6;
+        flex-direction: column;
+        margin: 0 0 15px;
+    }
+
+    &__logout {
+        flex-grow: 1;
+        font-weight: $font-weight-book;
+        font-size: 0.8rem;
+        color: $main-font-color;
+        margin: 0.7rem 0 0 0;
+
+        &:hover {
+            color: $main-font-color;
+            text-decoration: underline;
+        }
+    }
+}
+
+a.user-panel_button--is-grey {
+    font-weight: $font-weight-book;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: $main-font-color;
+    padding: 0;
+    border: none;
+    text-align: left;
+
+    &:hover {
+        font-weight: $font-weight-bold;
+        font-size: 1rem;
+        text-decoration: underline;
+        border: none;
+    }
+}
+
+a.manage-dossier,
+a.change-dossier {
+    font-weight: $font-weight-book;
+    font-size: $font-size-base;
+    color: $main-font-color;
+    border: none;
+
+    &:hover,
+    &:active {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-base;
+        color: $main-font-color;
+        text-decoration: underline;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.ev-menu-container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: $white;
+    box-shadow: 0 0 5px rgba(198, 203, 223, .70);
+    z-index: 5;
+}
+
+.ev-menu-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 76px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    color: $menu-font-color;
+    word-break: break-word;
+    text-decoration: none;
+
+    &.router-link-active {
+        opacity: 1;
+        border-right: none;
+        color: $primary-color;
+        background-color: $varient-background-color;
+
+        &.router-link-active--is-ccpm {
+            color: $primary-color;
+        }
+
+        .menu-link__text {
+            visibility: visible;
+        }
+    }
+
+    .menu-link__icon {
+        height: 23px;
+        font-size: 23px;
+        margin-top: 10px;
+    }
+
+    .menu-link__text {
+        position: relative;
+        width: 100%;
+        top: 22%;
+        transform: translateY(-50%);
+        font-size: 10px;
+        text-align: center;
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "even-css",
+  "version": "0.10.0",
+  "description": "Librairie CSS de ComptaAccess",
+  "main": "build.js",
+  "repository": {
+    "type": "svn",
+    "url": "ssh://git@bitbucket.compagnie-fiduciaire.com:7999/ev/even.css.git"
+  },
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch"
+  },
+  "author": "CF",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "basscss": "^8.1.0",
+    "cssnano": "^4.1.10",
+    "node-watch": "^0.6.4",
+    "normalize.css": "^8.0.1",
+    "postcss": "^7.0.30",
+    "sass": "^1.26.5"
+  }
+}

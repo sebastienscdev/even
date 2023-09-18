@@ -1,0 +1,43 @@
+.ev-banner {
+    height: 65px;
+    border-bottom: 1px solid #a8a8a7;
+    background-image: url(/assets/img/background-tab-ancien-espace.png);
+    padding:15px
+}
+
+.ev-banner-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.35rem;
+    font-weight: $font-weight-medium;
+    color: #353535;
+    line-height: 1.3;
+    height: 100%;
+    padding: 0px 30px;
+    i:last-child {
+        position: absolute;
+        font-size: 0.7rem;
+        line-height: 0;
+        right: 5px;
+        cursor: pointer;
+    }
+    .content-color {
+        color: #2988C5;
+        font-weight: $font-weight-bold;
+    }
+    .ev-btn.outline-btn.small {
+        background: none;
+        padding: 0.8rem;
+        color: $main-font-color;
+        background-color: $white;
+        font-weight: 400;
+        font-size: .8rem;
+        border: 1px solid $main-font-color;
+        min-width: 130px;
+        text-align: center;
+        margin: 0px 20px 0px 20px;
+        cursor: pointer;
+    }
+}

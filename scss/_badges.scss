@@ -1,0 +1,107 @@
+.ev-badge {
+    font-weight: $font-weight-medium;
+    font-size: 0.7rem;
+    color: $white-font-color;
+    padding: 4px 12px;
+    background-color: $ev-dark-grey;
+    border-radius: 1.2rem;
+
+    &.cf {
+        background-color: $cf-color;
+    }
+
+    &.ccpm {
+        background-color: $ccpm-color;
+    }
+
+    // Empty badges collapse automatically
+    &:empty {
+        display: none;
+    }
+}
+
+.ev-badge__rounded {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    font-weight: $font-weight-bold;
+    line-height: 22px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: $white-font-color;
+    background-color: $ev-dark-grey;
+    border-radius: 50%;
+
+    &.cf {
+        background-color: $cf-color;
+    }
+
+    &.ccpm {
+        background-color: $ccpm-color;
+    }
+}
+
+.ev-badge__avatar {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: $white-font-color;
+    background-color: $ev-primary-color;
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+    border-radius: 50%;
+}
+
+.ev-badge__comment {
+    position: absolute;
+    left: 2.35rem;
+    top: 0.7rem;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: $font-weight-medium;
+    line-height: 1.5rem;
+    font-size: .9rem;
+    text-align: center;
+    color: $white;
+    background-color: $ev-primary-color;
+    border-radius: 50%;
+  }
+
+.badge-btn {
+    position: relative;
+    font-family: $btn-font-family;
+    font-weight: $font-weight-medium;
+    color: $main-font-color;
+    background-color: $white-background-color;
+    border-radius: $ev-btn-border-radius;
+    text-align: center;
+    border: 2px solid transparent;
+    outline: none;
+    padding: 0.7rem 1.4rem;
+    cursor: pointer;
+
+    &__title {
+        font-size: .9rem;
+    }
+
+    &.active {
+        border-color: $main-font-color;
+        background: $white-background-color;
+        color: $main-font-color;
+    }
+}
+
+.ev-badge {
+    position: relative;
+    top: -1px;
+    right: -10px;
+
+    &.active {
+        border-color: $ev-dark-grey;
+        background: $ev-dark-grey;
+        color: $white-font-color;
+    }
+}

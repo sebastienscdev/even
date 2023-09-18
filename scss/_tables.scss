@@ -1,0 +1,142 @@
+.ev-table {
+    width: 100%;
+    margin-bottom: $spacer;
+    color: $main-font-color;
+
+    > :not(:last-child)> :last-child>* {
+        border-bottom-color: $border-width solid $border-bottom-table;
+    }
+
+    th .nature {
+        text-align: center;
+        font-weight: $font-weight-medium;
+        font-size: 1rem;
+    }
+
+    th .date, .libellé {
+        text-align: left;
+    }
+
+    th.montant, .piece {
+        text-align: right;
+    }
+
+    th,
+    td {
+        padding: 0.75rem;
+        vertical-align: middle;
+    }
+
+    td.nature {
+        text-align: center;
+    }
+
+    td.montant, .piece {
+        text-align: right;
+    }
+
+    tr {
+        background: $white;
+    }
+
+    .date, .libellé, .nature, .montant, .piece {
+        font-weight: $font-weight-book;
+        font-size: 1rem;
+    }
+}
+
+.table-striped {
+    >tbody>tr:nth-of-type(odd) {
+        background: $table-color;
+        color: $main-font-color;
+    }
+}
+
+.table-striped td,
+.table-striped th {
+    border-bottom: $border-width solid $border-bottom-table;
+}
+
+span {
+    &.tva-montant--positive {
+        color: $ev-green-color;
+        font-weight: $font-weight-bold;
+        font-size: 1.15rem;
+    }
+    &.tva-montant--negative {
+        color: $ev-dark-grey;
+        font-weight: $font-weight-bold;
+        font-size: 1.15rem;
+    }
+
+    &.affectation-libelle {
+        color: $ev-dark-grey;
+        font-weight: $font-weight-bold;
+        font-size: 1rem;
+    }
+    
+    &.affectation-content {
+        color: $main-font-color;
+        font-weight: $font-weight-book;
+        font-size: 1rem;
+    }
+}
+
+legend.tva-legend {
+    font-size: 1rem;
+    color: grey;
+    font-weight: $font-weight-bold;
+}
+
+.icon-btn-nature {
+    [class^="even-icon-fill-"] {
+        color: $ev-third-icon-color;
+        font-size: 3rem;
+        margin: 0;
+    }
+}
+
+.even-icon-pdf {
+    font-size: 2rem;
+}
+
+.even-icon-erreur {
+    font-size: 2.1rem;
+    color: $alert-color;
+}
+
+.even-icon-comment {
+    font-size: 2.1rem;
+}
+
+.tooltips .tooltiptext-comment {
+    top: -14px;
+    left: auto;
+    right: 25px;
+}
+
+.tooltips .tooltiptext-comment {
+    top: -14px;
+    left: auto;
+    right: 25px;
+}
+.tooltips .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    left: 35px;
+    z-index: 1;
+    width: 165px;
+    background-color: $white;
+    color: $main-font-color;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(198, 203, 223, .7);
+}
+
+.tooltips {
+    position: relative;
+}
+

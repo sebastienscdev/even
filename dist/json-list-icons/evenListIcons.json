@@ -1,0 +1,934 @@
+[{
+    "class": "even-icon-circle-box",
+    "value": "circle-box"
+},
+{
+    "class": "even-icon-circle-caddy",
+    "value": "circle-caddy"
+},
+{
+    "class": "even-icon-circle-caf",
+    "value": "circle-caf"
+},
+{
+    "class": "even-icon-circle-car",
+    "value": "circle-car"
+},
+{
+    "class": "even-icon-circle-card",
+    "value": "circle-card"
+},
+{
+    "class": "even-icon-circle-cartool",
+    "value": "circle-cartool"
+},
+{
+    "class": "even-icon-circle-case",
+    "value": "circle-case"
+},
+{
+    "class": "even-icon-circle-certificate",
+    "value": "circle-certificate"
+},
+{
+    "class": "even-icon-circle-chair",
+    "value": "circle-chair"
+},
+{
+    "class": "even-icon-circle-clothes",
+    "value": "circle-clothes"
+},
+{
+    "class": "even-icon-circle-copyright",
+    "value": "circle-copyright"
+},
+{
+    "class": "even-icon-circle-crossedcase",
+    "value": "circle-crossedcase"
+},
+{
+    "class": "even-icon-circle-crossedhouse",
+    "value": "circle-crossedhouse"
+},
+{
+    "class": "even-icon-circle-crossedmask",
+    "value": "circle-crossedmask"
+},
+{
+    "class": "even-icon-circle-crossedshield",
+    "value": "circle-crossedshield"
+},
+{
+    "class": "even-icon-circle-crossedtools",
+    "value": "circle-crossedtools"
+},
+{
+    "class": "even-icon-circle-cutlery",
+    "value": "circle-cutlery"
+},
+{
+    "class": "even-icon-circle-deskchair",
+    "value": "circle-deskchair"
+},
+{
+    "class": "even-icon-circle-digicode",
+    "value": "circle-digicode"
+},
+{
+    "class": "even-icon-circle-dots",
+    "value": "circle-dots"
+},
+{
+    "class": "even-icon-circle-drop",
+    "value": "circle-drop"
+},
+{
+    "class": "even-icon-circle-europrogress",
+    "value": "circle-europrogress"
+},
+{
+    "class": "even-icon-circle-euroround",
+    "value": "circle-euroround"
+},
+{
+    "class": "even-icon-circle-eurosheet",
+    "value": "circle-eurosheet"
+},
+{
+    "class": "even-icon-circle-flash",
+    "value": "circle-flash"
+},
+{
+    "class": "even-icon-circle-fuel",
+    "value": "circle-fuel"
+},
+{
+    "class": "even-icon-circle-gear",
+    "value": "circle-gear"
+},
+{
+    "class": "even-icon-circle-gift",
+    "value": "circle-gift"
+},
+{
+    "class": "even-icon-circle-group",
+    "value": "circle-group"
+},
+{
+    "class": "even-icon-circle-handeuro",
+    "value": "circle-handeuro"
+},
+{
+    "class": "even-icon-circle-horn",
+    "value": "circle-horn"
+},
+{
+    "class": "even-icon-circle-hospital",
+    "value": "circle-hospital"
+},
+{
+    "class": "even-icon-circle-inout",
+    "value": "circle-inout"
+},
+{
+    "class": "even-icon-circle-justice",
+    "value": "circle-justice"
+},
+{
+    "class": "even-icon-circle-key",
+    "value": "circle-key"
+},
+{
+    "class": "even-icon-circle-lockerhouse",
+    "value": "circle-lockerhouse"
+},
+{
+    "class": "even-icon-circle-mail",
+    "value": "circle-mail"
+},
+{
+    "class": "even-icon-circle-medicalcross",
+    "value": "circle-medicalcross"
+},
+{
+    "class": "even-icon-circle-microscope",
+    "value": "circle-microscope"
+},
+{
+    "class": "even-icon-circle-newspaper",
+    "value": "circle-newspaper"
+},
+{
+    "class": "even-icon-circle-notary",
+    "value": "circle-notary"
+},
+{
+    "class": "even-icon-circle-openbox",
+    "value": "circle-openbox"
+},
+{
+    "class": "even-icon-circle-parking",
+    "value": "circle-parking"
+},
+{
+    "class": "even-icon-circle-percent",
+    "value": "circle-percent"
+},
+{
+    "class": "even-icon-circle-phone",
+    "value": "circle-phone"
+},
+{
+    "class": "even-icon-circle-pig",
+    "value": "circle-pig"
+},
+{
+    "class": "even-icon-circle-pills",
+    "value": "circle-pills"
+},
+{
+    "class": "even-icon-circle-plane",
+    "value": "circle-plane"
+},
+{
+    "class": "even-icon-circle-profil",
+    "value": "circle-profil"
+},
+{
+    "class": "even-icon-circle-question",
+    "value": "circle-question"
+},
+{
+    "class": "even-icon-circle-scissors",
+    "value": "circle-scissors"
+},
+{
+    "class": "even-icon-circle-screen",
+    "value": "circle-screen"
+},
+{
+    "class": "even-icon-circle-service",
+    "value": "circle-service"
+},
+{
+    "class": "even-icon-circle-sharesheet",
+    "value": "circle-sharesheet"
+},
+{
+    "class": "even-icon-circle-sheet",
+    "value": "circle-sheet"
+},
+{
+    "class": "even-icon-circle-sheetpercent",
+    "value": "circle-sheetpercent"
+},
+{
+    "class": "even-icon-circle-shipping",
+    "value": "circle-shipping"
+},
+{
+    "class": "even-icon-circle-shovel",
+    "value": "circle-shovel"
+},
+{
+    "class": "even-icon-circle-speaker",
+    "value": "circle-speaker"
+},
+{
+    "class": "even-icon-circle-store",
+    "value": "circle-store"
+},
+{
+    "class": "even-icon-circle-terminal",
+    "value": "circle-terminal"
+},
+{
+    "class": "even-icon-circle-toll",
+    "value": "circle-toll"
+},
+{
+    "class": "even-icon-circle-tools",
+    "value": "circle-tools"
+},
+{
+    "class": "even-icon-circle-tooth",
+    "value": "circle-tooth"
+},
+{
+    "class": "even-icon-circle-trash",
+    "value": "circle-trash"
+},
+{
+    "class": "even-icon-circle-trolley",
+    "value": "circle-trolley"
+},
+{
+    "class": "even-icon-circle-tshirt",
+    "value": "circle-tshirt"
+},
+{
+    "class": "even-icon-circle-wallet",
+    "value": "circle-wallet"
+},
+{
+    "class": "even-icon-circle-wheat",
+    "value": "circle-wheat"
+},
+{
+    "class": "even-icon-circle-workhouse",
+    "value": "circle-workhouse"
+},
+{
+    "class": "even-icon-close",
+    "value": "close"
+},
+{
+    "class": "even-icon-coffre-fort",
+    "value": "coffre-fort"
+},
+{
+    "class": "even-icon-credit-card",
+    "value": "credit-card"
+},
+{
+    "class": "even-icon-cut",
+    "value": "cut"
+},
+{
+    "class": "even-icon-dashboard",
+    "value": "dashboard"
+},
+{
+    "class": "even-icon-date",
+    "value": "date"
+},
+{
+    "class": "even-icon-delete",
+    "value": "delete"
+},
+{
+    "class": "even-icon-disconnect",
+    "value": "disconnect"
+},
+{
+    "class": "even-icon-document",
+    "value": "document"
+},
+{
+    "class": "even-icon-dot",
+    "value": "dot"
+},
+{
+    "class": "even-icon-download",
+    "value": "download"
+},
+{
+    "class": "even-icon-erreur",
+    "value": "erreur"
+},
+{
+    "class": "even-icon-eye",
+    "value": "eye"
+},
+{
+    "class": "even-icon-fichier-140",
+    "value": "fichier-140"
+},
+{
+    "class": "even-icon-fill-accountant",
+    "value": "fill-accountant"
+},
+{
+    "class": "even-icon-fill-armchair",
+    "value": "fill-armchair"
+},
+{
+    "class": "even-icon-fill-at",
+    "value": "fill-at"
+},
+{
+    "class": "even-icon-fill-bag",
+    "value": "fill-bag"
+},
+{
+    "class": "even-icon-fill-book",
+    "value": "fill-book"
+},
+{
+    "class": "even-icon-fill-bourse",
+    "value": "fill-bourse"
+},
+{
+    "class": "even-icon-fill-box",
+    "value": "fill-box"
+},
+{
+    "class": "even-icon-fill-caddy",
+    "value": "fill-caddy"
+},
+{
+    "class": "even-icon-fill-caf",
+    "value": "fill-caf"
+},
+{
+    "class": "even-icon-fill-car",
+    "value": "fill-car"
+},
+{
+    "class": "even-icon-fill-card",
+    "value": "fill-card"
+},
+{
+    "class": "even-icon-fill-cartool",
+    "value": "fill-cartool"
+},
+{
+    "class": "even-icon-fill-case",
+    "value": "fill-case"
+},
+{
+    "class": "even-icon-fill-certificate",
+    "value": "fill-certificate"
+},
+{
+    "class": "even-icon-fill-chair",
+    "value": "fill-chair"
+},
+{
+    "class": "even-icon-fill-clothes",
+    "value": "fill-clothes"
+},
+{
+    "class": "even-icon-fill-copyright",
+    "value": "fill-copyright"
+},
+{
+    "class": "even-icon-fill-crossedcase",
+    "value": "fill-crossedcase"
+},
+{
+    "class": "even-icon-fill-crossedhouse",
+    "value": "fill-crossedhouse"
+},
+{
+    "class": "even-icon-fill-crossedmask",
+    "value": "fill-crossedmask"
+},
+{
+    "class": "even-icon-fill-crossedshield",
+    "value": "fill-crossedshield"
+},
+{
+    "class": "even-icon-fill-crossedtools",
+    "value": "fill-crossedtools"
+},
+{
+    "class": "even-icon-fill-cutlery",
+    "value": "fill-cutlery"
+},
+{
+    "class": "even-icon-fill-deskchair",
+    "value": "fill-deskchair"
+},
+{
+    "class": "even-icon-fill-digicode",
+    "value": "fill-digicode"
+},
+{
+    "class": "even-icon-fill-dots",
+    "value": "fill-dots"
+},
+{
+    "class": "even-icon-fill-drop",
+    "value": "fill-drop"
+},
+{
+    "class": "even-icon-fill-europrogress",
+    "value": "fill-europrogress"
+},
+{
+    "class": "even-icon-fill-euroround",
+    "value": "fill-euroround"
+},
+{
+    "class": "even-icon-fill-eurosheet",
+    "value": "fill-eurosheet"
+},
+{
+    "class": "even-icon-fill-flash",
+    "value": "fill-flash"
+},
+{
+    "class": "even-icon-fill-fuel",
+    "value": "fill-fuel"
+},
+{
+    "class": "even-icon-fill-gear",
+    "value": "fill-gear"
+},
+{
+    "class": "even-icon-fill-gift",
+    "value": "fill-gift"
+},
+{
+    "class": "even-icon-fill-group",
+    "value": "fill-group"
+},
+{
+    "class": "even-icon-fill-handeuro",
+    "value": "fill-handeuro"
+},
+{
+    "class": "even-icon-fill-horn",
+    "value": "fill-horn"
+},
+{
+    "class": "even-icon-fill-hospital",
+    "value": "fill-hospital"
+},
+{
+    "class": "even-icon-fill-inout",
+    "value": "fill-inout"
+},
+{
+    "class": "even-icon-fill-justice",
+    "value": "fill-justice"
+},
+{
+    "class": "even-icon-fill-key",
+    "value": "fill-key"
+},
+{
+    "class": "even-icon-fill-lockerhouse",
+    "value": "fill-lockerhouse"
+},
+{
+    "class": "even-icon-fill-mail",
+    "value": "fill-mail"
+},
+{
+    "class": "even-icon-fill-medicalcross",
+    "value": "fill-medicalcross"
+},
+{
+    "class": "even-icon-fill-microscope",
+    "value": "fill-microscope"
+},
+{
+    "class": "even-icon-fill-newspaper",
+    "value": "fill-newspaper"
+},
+{
+    "class": "even-icon-fill-notary",
+    "value": "fill-notary"
+},
+{
+    "class": "even-icon-fill-openbox",
+    "value": "fill-openbox"
+},
+{
+    "class": "even-icon-fill-parking",
+    "value": "fill-parking"
+},
+{
+    "class": "even-icon-fill-percent",
+    "value": "fill-percent"
+},
+{
+    "class": "even-icon-fill-phone",
+    "value": "fill-phone"
+},
+{
+    "class": "even-icon-fill-pig",
+    "value": "fill-pig"
+},
+{
+    "class": "even-icon-fill-pills",
+    "value": "fill-pills"
+},
+{
+    "class": "even-icon-fill-plane",
+    "value": "fill-plane"
+},
+{
+    "class": "even-icon-fill-profil",
+    "value": "fill-profil"
+},
+{
+    "class": "even-icon-fill-question",
+    "value": "fill-question"
+},
+{
+    "class": "even-icon-fill-scissors",
+    "value": "fill-scissors"
+},
+{
+    "class": "even-icon-fill-screen",
+    "value": "fill-screen"
+},
+{
+    "class": "even-icon-fill-service",
+    "value": "fill-service"
+},
+{
+    "class": "even-icon-fill-sharesheet",
+    "value": "fill-sharesheet"
+},
+{
+    "class": "even-icon-fill-sheet",
+    "value": "fill-sheet"
+},
+{
+    "class": "even-icon-fill-sheetpercent",
+    "value": "fill-sheetpercent"
+},
+{
+    "class": "even-icon-fill-shipping",
+    "value": "fill-shipping"
+},
+{
+    "class": "even-icon-fill-shovel",
+    "value": "fill-shovel"
+},
+{
+    "class": "even-icon-fill-speaker",
+    "value": "fill-speaker"
+},
+{
+    "class": "even-icon-fill-store",
+    "value": "fill-store"
+},
+{
+    "class": "even-icon-fill-terminal",
+    "value": "fill-terminal"
+},
+{
+    "class": "even-icon-fill-toll",
+    "value": "fill-toll"
+},
+{
+    "class": "even-icon-fill-tools",
+    "value": "fill-tools"
+},
+{
+    "class": "even-icon-fill-tooth",
+    "value": "fill-tooth"
+},
+{
+    "class": "even-icon-fill-trash",
+    "value": "fill-trash"
+},
+{
+    "class": "even-icon-fill-trolley",
+    "value": "fill-trolley"
+},
+{
+    "class": "even-icon-fill-tshirt",
+    "value": "fill-tshirt"
+},
+{
+    "class": "even-icon-fill-wallet",
+    "value": "fill-wallet"
+},
+{
+    "class": "even-icon-fill-wheat",
+    "value": "fill-wheat"
+},
+{
+    "class": "even-icon-fill-workhouse",
+    "value": "fill-workhouse"
+},
+{
+    "class": "even-icon-filter",
+    "value": "filter"
+},
+{
+    "class": "even-icon-flower",
+    "value": "flower"
+},
+{
+    "class": "even-icon-gestion",
+    "value": "gestion"
+},
+{
+    "class": "even-icon-graph-bar",
+    "value": "graph-bar"
+},
+{
+    "class": "even-icon-graph-circular",
+    "value": "graph-circular"
+},
+{
+    "class": "even-icon-info",
+    "value": "info"
+},
+{
+    "class": "even-icon-like",
+    "value": "like"
+},
+{
+    "class": "even-icon-list",
+    "value": "list"
+},
+{
+    "class": "even-icon-loupe",
+    "value": "loupe"
+},
+{
+    "class": "even-icon-more",
+    "value": "more"
+},
+{
+    "class": "even-icon-operation",
+    "value": "operation"
+},
+{
+    "class": "even-icon-outils",
+    "value": "outils"
+},
+{
+    "class": "even-icon-pdf",
+    "value": "pdf"
+},
+{
+    "class": "even-icon-actus",
+    "value": "actus"
+},
+{
+    "class": "even-icon-add",
+    "value": "add"
+},
+{
+    "class": "even-icon-alert",
+    "value": "alert"
+},
+{
+    "class": "even-icon-arrow",
+    "value": "arrow"
+},
+{
+    "class": "even-icon-atoms",
+    "value": "atoms"
+},
+{
+    "class": "even-icon-avantages",
+    "value": "avantages"
+},
+{
+    "class": "even-icon-cabinet",
+    "value": "cabinet"
+},
+{
+    "class": "even-icon-circle-accountant",
+    "value": "circle-accountant"
+},
+{
+    "class": "even-icon-circle-armchair",
+    "value": "circle-armchair"
+},
+{
+    "class": "even-icon-circle-at",
+    "value": "circle-at"
+},
+{
+    "class": "even-icon-circle-bag",
+    "value": "circle-bag"
+},
+{
+    "class": "even-icon-circle-book",
+    "value": "circle-book"
+},
+{
+    "class": "even-icon-circle-bourse",
+    "value": "circle-bourse"
+},
+{
+    "class": "even-icon-bold-question",
+    "value": "bold-question"
+},
+{
+    "class": "even-icon-arrow-left",
+    "value": "arrow-left"
+},
+{
+    "class": "even-icon-caret-down",
+    "value": "caret-down"
+},
+{
+    "class": "even-icon-external-link",
+    "value": "external-link"
+},
+{
+    "class": "even-icon-mail",
+    "value": "mail"
+},
+{
+    "class": "even-icon-print",
+    "value": "print"
+},
+{
+    "class": "even-icon-lock",
+    "value": "lock"
+},
+{
+    "class": "even-icon-shared",
+    "value": "shared"
+},
+{
+    "class": "even-icon-arrow-down",
+    "value": "arrow-down"
+},
+{
+    "class": "even-icon-value-down",
+    "value": "value-down"
+},
+{
+    "class": "even-icon-value-up",
+    "value": "value-up"
+},
+{
+    "class": "even-icon-value-egal",
+    "value": "value-egal"
+},
+{
+    "class": "even-icon-fill-check",
+    "value": "fill-check"
+},
+{
+    "class": "even-icon-notification",
+    "value": "notification"
+},
+{
+    "class": "even-icon-double-chevron",
+    "value": "double-chevron"
+},
+{
+    "class": "even-icon-teamviewer",
+    "value": "teamviewer"
+},
+{
+    "class": "even-icon-switch-folder",
+    "value": "switch-folder"
+},
+{
+    "class": "even-icon-swipe",
+    "value": "swipe"
+},
+{
+    "class": "even-icon-excel",
+    "value": "excel"
+},
+{
+    "class": "even-icon-stat",
+    "value": "stat"
+},
+{
+    "class": "even-icon-compte",
+    "value": "compte"
+},
+{
+    "class": "even-icon-clock",
+    "value": "clock"
+},
+{
+    "class": "even-icon-star",
+    "value": "star"
+},
+{
+    "class": "even-icon-vote",
+    "value": "vote"
+},
+{
+    "class": "even-icon-less",
+    "value": "less"
+},
+{
+    "class": "even-icon-phone-camera",
+    "value": "phone-camera"
+},
+{
+    "class": "even-icon-reconnaissance-intelligente",
+    "value": "reconnaissance-intelligente"
+},
+{
+    "class": "even-icon-support-client",
+    "value": "support-client"
+},
+{
+    "class": "even-icon-releve-cb",
+    "value": "releve-cb"
+},
+{
+    "class": "even-icon-frais-kilometriques",
+    "value": "frais-kilometriques"
+},
+{
+    "class": "even-icon-export-comptabilite",
+    "value": "export-comptabilite"
+},
+{
+    "class": "even-icon-cloud-coffre-fort",
+    "value": "cloud-coffre-fort"
+},
+{
+    "class": "even-icon-carchivage-legal",
+    "value": "carchivage-legal"
+},
+{
+    "class": "even-icon-fullscreen",
+    "value": "fullscreen"
+},
+{
+    "class": "even-icon-camera-picture",
+    "value": "camera-picture"
+},
+{
+    "class": "even-icon-import-docs",
+    "value": "import-docs"
+},
+{
+    "class": "even-icon-rotate-left",
+    "value": "rotate-left"
+},
+{
+    "class": "even-icon-rotate-right",
+    "value": "rotate-right"
+},
+{
+    "class": "even-icon-euro",
+    "value": "euro"
+},
+{
+    "class": "even-icon-check",
+    "value": "check"
+},
+{
+    "class": "even-icon-eraser",
+    "value": "eraser"
+},
+{
+    "class": "even-icon-historic",
+    "value": "historic"
+},
+{
+    "class": "even-icon-revision",
+    "value": "revision"
+},
+{
+    "class": "even-icon-hourglass",
+    "value": "hourglass"
+},
+{
+    "class": "even-icon-pencil",
+    "value": "pencil"
+},
+{
+    "class": "even-icon-quality",
+    "value": "quality"
+},
+{
+    "class": "even-icon-euro-file",
+    "value": "quality"
+}
+]
+  

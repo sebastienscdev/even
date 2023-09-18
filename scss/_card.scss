@@ -1,0 +1,285 @@
+.ev-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: $white-background-color;
+    background-clip: border-box;
+    padding: $ev-card-padding;
+    border-radius: $border-radius-base;
+    box-shadow: 1px 3px 5px rgba(198, 203, 223, .7);
+    // for each card sreen size modify/or use variable for responsive
+    max-height: $bp-xxlarge;
+    height: auto;
+
+    &__title {
+        font-size: 1.4rem;
+        font-weight: $font-weight-bold;
+        color: $main-font-color;
+    }
+
+    &__text {
+        font-size: .9rem;
+        font-weight: $font-weight-book;
+        color: $main-font-color;
+    }
+
+    &__text-nature {
+        font-size: .9rem;
+        font-weight: $font-weight-book;
+        line-height: $line-height-default;
+        color: $main-font-color;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+
+    &__content {
+        padding: $ev-card-content-padding;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem 0 0 0;
+        .ev-btn {
+            margin: 0 .5rem;
+        }
+    }
+
+    &-pwa {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: $white-background-color;
+        background-clip: border-box;
+        padding: $ev-card-pwa-padding;
+        box-shadow: 1px 3px 5px rgba(198, 203, 223, .7);
+
+        &__title {
+            font-size: 0.9rem;
+            font-weight: $font-weight-bold;
+            color: $main-font-color;
+
+            &-operation {
+                font-size: 1.4rem;
+                font-weight: $font-weight-bold;
+                color: $main-font-color;
+            }
+        }
+
+        &__text {
+            font-size: $font-size-base;
+            font-weight: $font-weight-book;
+            color: $main-font-color;
+            margin-bottom: 1rem;
+        }
+
+        &__text-nature {
+            font-size: 0.9rem;
+            font-weight: $font-weight-book;
+            color: $main-font-color;
+            margin: 1rem 0rem 2rem 0rem;
+        }
+
+        &__content {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__footer {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0 0;
+            .ev-btn {
+                margin: 0 .5rem;
+            }
+        }
+        &__operations {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+.color-cards-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    font-size: .7rem;
+    background-color: $varient-background-color;
+    border-radius: 50%;
+
+    &.white {
+        background-color: $white-background-color;
+    }
+
+    &__pwa {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55px;
+        height: 55px;
+        font-size: .7rem;
+        background-color: $varient-background-color;
+        border-radius: 50%;
+
+        &[class*=" even-icon-"] {
+            font-size: 1.6rem;
+            color: $main-font-color;
+        }
+    }
+
+    &:hover {
+        background-color: $button-outline-bg-hover-color;
+    }
+
+    &.even-icon-arrow {
+        color: $main-font-color;
+    }
+
+    &.even-icon-trash {
+        color: $main-font-color;
+    }
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    &__text {
+        margin-right: 6px;
+        font-size: 1rem;
+        font-weight: $font-weight-bold;
+        color: $main-font-color;
+    }
+}
+
+.icon-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 1.5rem;
+
+    &__pwa {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.5rem 0rem;
+    }
+}
+
+.operation-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 0rem 1.5rem;
+
+    &__pwa {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        justify-content: flex-end;
+    }
+}
+
+.info-col {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+
+    &__pwa {
+        flex-direction: row;
+        align-items: center;
+        padding: 0.5rem 0rem;
+        justify-content: flex-end;
+    }
+}
+
+.operation {
+    &[class*=" even-icon-"] {
+        font-size: 3.4rem;
+        color: $main-font-color;
+
+        &:hover {
+            color: $main-font-color;
+            opacity: .6;
+        }
+    }
+}
+
+.affectation {
+    &.even-icon-fill-car {
+        color: $varient-background-color;
+        margin: 0rem 0.2rem 0rem 0rem;
+        font-size: 2.8rem;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 50%;
+        color: $ev-fifth-icon-color;
+    }
+
+    &.even-icon-info {
+        font-size: 1.8rem;
+        color: $ev-fourth-icon-color;
+        align-items: center;
+        display: flex;
+        z-index: 0;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        font-weight: $font-weight-bold;
+        color: $main-font-color;
+        margin: .7rem .3rem;
+    }
+
+    &__info {
+        margin-left: 6px;
+        font-size: 1rem;
+        font-weight: $font-weight-bold;
+        color: $main-font-color;
+    }
+
+    &__pwa {
+        &[class*=" even-icon-circle-"] {
+            font-size: 2.2rem;
+            color: $main-font-color;
+        }
+
+        &.even-icon-info {
+            display: flex;
+            align-items: center;
+            font-size: 1.6rem;
+            color: $main-font-color;
+            cursor: pointer;
+            z-index: 0;
+        }
+
+        &.even-icon-circle-trash {
+            align-items: center;
+            display: flex;
+            font-size: 2.2rem;
+            color: $main-font-color;
+            margin: 0 0rem 0rem 1.2rem;
+        }
+
+        &__text {
+            font-size: $font-size-base;
+            font-weight: $font-weight-bold;
+            color: $main-font-color;
+            margin: 0.3rem 1.3rem 0.3rem .3rem;
+        }
+
+    }
+}

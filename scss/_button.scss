@@ -1,0 +1,560 @@
+.ev-btn {
+    position: relative;
+    display: inline-block;
+    font-family: $btn-font-family;
+    font-weight: $font-weight-medium;
+    font-size: 1rem;
+    padding: $ev-btn-padding-y $ev-btn-padding-x;
+    color: $main-font-color;
+    background: $white-background-color;
+    cursor: pointer;
+    border-radius: $ev-btn-border-radius;
+    border: $border-width solid $ev-dark-grey;
+    box-shadow: none;
+    outline: none;
+    line-height: 1.2;
+
+    &.primary {
+        background: $button-primary-bg-color;
+        color: $white-font-color;
+        border: $border-width solid $button-primary-bg-color;
+
+        &:hover,
+        &:active {
+            background: $button-primary-bg-hover-color;
+            border: $border-width solid $button-primary-bg-hover-color;
+        }
+    }
+
+    &.small {
+        background: $ev-btn-small-color;
+        padding: $ev-btn-small-padding-y $ev-btn-small-padding-x;
+        color: $main-font-color;
+        font-weight: $font-weight-book;
+        font-size: $font-size-small-btn;
+        border: $border-width solid $light-grey;
+
+        &:hover,
+        &:active {
+            background: $ev-light-grey-darken;
+            border: $border-width solid $ev-light-grey-darken;
+        }
+
+        &.active {
+            background-color: $white;
+            border: 1px solid $white;
+        }
+
+        &.primary {
+            background: $button-primary-bg-color;
+            color: $white-font-color;
+            border: $border-width solid $button-primary-bg-color;
+
+            &:hover,
+            &:active {
+                background: $button-primary-bg-hover-color;
+                border: $border-width solid $button-primary-bg-hover-color;
+            }
+        }
+    }
+    
+    &.x-small {
+        background: $ev-btn-small-color;
+        padding: $ev-btn-x-small-padding-y $ev-btn-x-small-padding-x;
+        color: $main-font-color;
+        font-weight: $font-weight-book;
+        font-size: $font-size-x-small-btn;
+        border: $border-width solid $light-grey;
+
+        &:hover,
+        &:active {
+            background: $ev-light-grey-darken;
+            border: $border-width solid $ev-light-grey-darken;
+        }
+
+        &.active {
+            background-color: $white;
+            border: 1px solid $white;
+        }
+
+        &.primary {
+            background: $button-primary-bg-color;
+            color: $white-font-color;
+            border: $border-width solid $button-primary-bg-color;
+
+            &:hover,
+            &:active {
+                background: $button-primary-bg-hover-color;
+                border: $border-width solid $button-primary-bg-hover-color;
+            }
+        }
+    }
+
+    &.medium {
+        padding: $ev-btn-medium-padding-y $ev-btn-medium-padding-x;
+        font-size: $font-size-medium-btn;
+        background: $ev-btn-small-color;
+        color: $main-font-color;
+        border: $border-width solid $light-grey;
+
+        &:hover,
+        &:active {
+            background: $ev-light-grey-darken;
+            border: $border-width solid $ev-light-grey-darken;
+        }
+
+        &.primary {
+            background: $button-primary-bg-color;
+            color: $white-font-color;
+            border: $border-width solid $button-primary-bg-color;
+
+            &:hover,
+            &:active {
+                background: $button-primary-bg-hover-color;
+                border: $border-width solid $button-primary-bg-hover-color;
+            }
+        }
+    }
+
+    &.large {
+        padding: $ev-btn-large-padding-y $ev-btn-large-padding-x;
+        color: $main-font-color;
+        font-size: $font-size-large-btn;
+        border: $border-width solid transparent;
+
+        &.primary {
+            background: $button-primary-bg-color;
+            color: $white-font-color;
+            border: $border-width solid $button-primary-bg-color;
+
+            &:hover,
+            &:active {
+                background: $button-primary-bg-hover-color;
+                border: $border-width solid $button-primary-bg-hover-color;
+            }
+        }
+
+        &:hover,
+        &:active {
+            background: $ev-light-grey-darken;
+        }
+    }
+
+    &.btn-dropdown {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: $ev-btndropdown-padding-y $ev-btndropdown-padding-x;
+        color: $main-font-color;
+        background-color: $white-background-color;
+        border: none;
+        border-radius: $border-radius-small;
+
+        &__open {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: $ev-btndropdown-padding-y $ev-btndropdown-padding-x;
+            color: $main-font-color;
+            border: none;
+            border-radius: .8rem .8rem 0rem 0rem;
+            background-color: $white-background-color;
+        }
+    }
+
+    &.outline-btn {
+        background: $button-outline-bg-color;
+        color: $main-font-color;
+        border: $border-width solid $main-font-color;
+        font-size: $font-size-outline-btn;
+
+        &:hover {
+            background: $button-outline-bg-hover-color;
+        }
+
+        &.small {
+            background: none;
+            padding: $ev-btn-small-padding-y $ev-btn-small-padding-x;
+            color: $main-font-color;
+            font-weight: $font-weight-book;
+            font-size: $font-size-small-btn;
+            border: $border-width solid $main-font-color;
+
+            &:hover,
+            &:active {
+                background: $button-outline-bg-hover-color;
+            }
+        }
+        
+        &.x-small {
+            background: none;
+            padding: $ev-btn-x-small-padding-y $ev-btn-x-small-padding-x;
+            color: $main-font-color;
+            font-weight: $font-weight-book;
+            font-size: $font-size-x-small-btn;
+            border: $border-width solid $main-font-color;
+
+            &:hover,
+            &:active {
+                background: $button-outline-bg-hover-color;
+            }
+        }
+
+        &.medium {
+            background: none;
+            color: $main-font-color;
+            font-size: $font-size-medium-btn;
+            font-weight: $font-weight-bold;
+            border: $border-width solid $main-font-color;
+
+            &:hover,
+            &:active {
+                background: $button-outline-bg-hover-color;
+            }
+        }
+    }
+
+    &.outline-icon-btn {
+        display: inline-flex;
+        align-items: center;
+        color: $ccpm-font-color;
+        border: $border-width solid $ccpm-font-color;
+        background: none;
+        padding: 10px 20px 10px 40px;
+
+        &:hover {
+            color: $ccpm-font-color-hover;
+            border: $border-width solid $ccpm-font-color-hover;
+        }
+
+        [class^=even-icon-] {
+            position: absolute;
+            left: .5rem;
+            font-size: 1.8rem;
+        }
+    }
+
+    &:disabled,
+    &.disabled {
+        background: $button-outline-bg-color;
+        color: $main-font-color;
+        border: $border-width solid $main-font-color;
+        pointer-events: none;
+        opacity: $ev-btn-disabled-opacity;
+
+        &.primary {
+            background: $button-primary-bg-color;
+            color: $main-font-color;
+            color: $white-font-color;
+            border: none;
+        }
+    }
+
+    &.link {
+        color: $main-font-color;
+        padding: $ev-btn-padding-none;
+        text-decoration: none;
+        border: none;
+        background: none;
+
+        &:hover,
+        &:active {
+            text-decoration: underline;
+        }
+    }
+
+    &.link-underline {
+        color: $main-font-color;
+        padding: $ev-btn-padding-none;
+        text-decoration: underline;
+        border: none;
+        background: none;
+
+        &:hover,
+        &:active {
+            text-decoration: underline;
+        }
+    }
+
+    &.icon-btn {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        background-color: $white-background-color;
+        color: $main-font-color;
+        border: none;
+        padding: .7rem 5.5rem .7rem 4rem;
+        line-height: 1;
+
+        &.no-suggestion {
+            padding: 1.1rem 6rem 1.1rem 4rem;
+        }
+
+        &.primary {
+            background: $button-primary-bg-color;
+            color: $main-font-color;
+            color: $white-font-color;
+            border: none;
+
+            &:hover,
+            &:active {
+                background: $button-primary-bg-hover-color;
+            }
+        }
+
+        i:first-of-type {
+            position: absolute;
+            left: 0.4rem;
+        }
+
+        i:last-of-type {
+            position: absolute;
+            right: 0.45rem;
+        }
+
+        .suggestion {
+            display: contents;
+            font-size: $font-size-suggestion-btn;
+            font-weight: $font-weight-book;
+        }
+
+        .even-icon-btn-question-fine {
+            font-size: 2.65rem;
+        }
+
+        .even-icon-arrow {
+            font-size: 0.7rem;
+            align-items: center;
+            display: flex;
+        }
+    }
+}
+
+.icon-btn-transparency {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: $font-weight-bold;
+    color: $main-font-color;
+    background: transparent;
+    border: none;
+    padding: $ev-btn-padding-none;
+
+    &:hover,
+    &:active {
+        color: $ev-medium-grey;
+    }
+
+    i:first-of-type {
+        font-size: 2rem;
+        padding-right: .8rem;
+    }
+}
+
+.icon-btn-fill {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    font-size: 1rem;
+    font-weight: $font-weight-medium;
+    color: $white-font-color;
+    background: $ev-green-color-light;
+    border-radius: 50px;
+    border: $border-width solid $ev-green-color-light;
+    padding: 0.6rem 1.2rem;
+
+    &.primary {
+        background: $button-primary-bg-color;
+        color: $white-font-color;
+        border: $border-width solid $button-primary-bg-color;
+
+        &:hover,
+        &:active {
+            background: $button-primary-bg-hover-color;
+            border: $border-width solid $button-primary-bg-hover-color;
+            color: $white-font-color;
+        }
+    }
+
+    &.outline {
+        background: $white;
+        color: $ev-green-color-light;
+        border: $border-width solid $ev-green-color-light;
+        box-shadow: none;
+
+        &:hover,
+        &:active {
+            background: $ev-green-color-light;
+            border: $border-width solid $ev-green-color-light;
+            color: $white-font-color;
+        }
+    }
+
+    &:hover,
+    &:active {
+        background: $ev-green-color-darken;
+        border: $border-width solid $ev-green-color-darken;
+        color: $white-font-color;
+    }
+
+    i:first-of-type {
+        font-size: 1.6rem;
+        padding-right: 1.2rem;
+    }
+}
+
+.icon-btn-nature-content {
+    display: flex;
+    align-items: center;
+}
+
+.icon-btn-nature {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: $font-weight-bold;
+    color: $main-font-color;
+    background: transparent;
+    border: none;
+    padding: $ev-btn-padding-none;
+
+    [class^="even-icon-fill-"] {
+        color: $ev-third-icon-color;
+        font-size: 2.2rem;
+    }
+
+    &--text {
+        font-size: 1.1rem;
+        color: $main-font-color;
+        font-style: initial;
+        margin: 0 0 0 10px;
+    }
+}
+
+.transparency-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(248, 248, 251, 0.3);
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+}
+
+// effect button
+
+i.even-icon {
+    &-star {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: 12px 20px;
+    color: $white-font-color;
+    }
+    &-vote {
+    line-height: 0;
+    font-size: 2.8rem;
+    padding: 0px 0px 0px 8px;
+    color: $white-font-color;
+    }
+    &-close {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: 12px 20px;
+    color: $main-font-color;
+    }
+}
+
+.ev-rolling-rockmenu {
+    color: $white-font-color;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ev-rolling-rockmenu .rolling {
+    display: flex;
+    flex-direction: flex-end;
+    cursor: pointer;
+    width: 62px;
+    height: 56px;
+    text-align: right;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px;
+    background: $button-primary-bg-color;
+    transition: all 0.3s ease-out;
+    white-space: nowrap;
+
+    &:hover {
+        width: 282px;
+        background: $button-primary-bg-hover-color;
+        position: relative;
+        .even-icon-star {
+            display: none;
+        }
+        .even-icon-close {
+            display: inline-block!important;
+            font-size: .9rem;
+            top: 3px;
+            left: -12px;
+            position: absolute;
+            background-color: $white-font-color;
+            border-radius: 50px;
+            padding: 6px;
+        }
+    }
+
+    &.ev-rolling__icon {
+        z-index: 9;
+        display: inline-block;
+        width: 52px;
+        height: 52px;
+        border-radius: 20px 0px 0px 20px;
+        background: $button-primary-bg-color;
+        box-sizing: border-box;
+        margin: 0 10px 0 0;
+    }
+}
+
+.ev-rolling {
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0px 0px 0px 42px;
+        color: $white-font-color;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 10px;
+        font-weight: 500;
+        color: $white-font-color;
+    }
+}
+
+.ev-rolling-rockmenu .rolling .ev-rolling__icon:hover .rolling {
+    width: 312px;
+}
+
+.ev-rolling-rockmenu .rolling span {
+    display: block;
+    font-weight: $font-weight-medium;
+    margin: 0px 0px 4px 0;
+    color: $white-font-color;
+}
+
+.ev-rolling-rockmenu .rolling p {
+    margin: 0;
+}

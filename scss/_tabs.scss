@@ -1,0 +1,24 @@
+
+.tab-list{
+    font-size: 14px;
+    padding: 0 15px;
+    margin-top: 8px;
+    border-bottom: solid 1px $menu-font-color;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    &__item{
+      display: inline-block;
+      font-size: 1em;
+      font-weight: $font-weight-black;
+      color:$menu-font-color;
+      padding: 13px 24px;
+      border-bottom: 2px solid transparent;
+      &.router-link-active{
+        color:$main-font-color;
+        border-bottom: 2px solid $primary-color;
+        background-color: $white;
+      }
+    }
+  }

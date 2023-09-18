@@ -1,0 +1,317 @@
+ul.glyphs.css-mapping.col-12 {
+    display: flex;
+}
+
+.color-box__main-font-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #4A4A4A;
+}
+
+.color-box__font-picto {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #8A8A8A;
+}
+
+.color-box__menu-font-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #A8A8A7;
+}
+
+.color-box__medium-grey {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #BEBEBF;
+}
+
+.color-box__light-grey {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #DFDFDF;
+}
+
+.color-box__ccpm-font-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #D72C5B;
+}
+
+.color-box__ccpm-font-color-hover {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #A34061;
+}
+
+.color-box__cf-font-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #2AA7DB;
+}
+
+.color-box__cf-font-color-hover {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #366B9E;
+}
+
+.color-box__success-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #155724;
+}
+
+.color-box__ev-primary-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #FF6D84;
+}
+
+.color-box__ev-green-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #40A926;
+}
+
+.color-box__ev-green-color-light {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #5FDA7D;
+}
+
+.color-box__ev-green-color-darken {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #59c375;
+}
+
+.color-box__ev-orange-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #FFCD7C;
+}
+
+.color-box__alert-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #FF6D84;
+}
+
+.color-box__ev-primary-pastel-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #FFBAC5;
+}
+
+.color-box__ev-green-pastel-color  {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #C6E6BD;
+}
+
+.color-box__ev-grey-pastel-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #C9C9C9;
+}
+
+.color-box__ev-icon-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #E9D68B;
+}
+.color-box__ev-secondary-icon-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #8AC1AD;
+}
+
+.color-box__ev-third-icon-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #BFC886;
+}
+.color-box__ev-fourth-icon-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #64B3C1;
+}
+
+.color-box__ev-fifth-icon-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #DA95A9;
+}
+
+.color-box__ev-sixth-icon-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #E58D7D;
+}
+
+.color-box__ev-seventh-icon-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #A8A7A7;
+}
+
+.color-box__ev-eight-icon-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #8C5162;
+}
+
+.color-box__ev-nine-icon-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #E5C86C;
+}
+
+.color-box__ev-affectation-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #FFD9C3;
+}
+
+.color-box__ev-affectation--border-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #FF7600;
+}
+
+.color-box__varient-background-color {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #F1F2F8;
+}
+
+.color-box__varient-light-greyblue {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #DEE0EC;
+}
+
+.color-box__varient-box-shadow-color  {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: rgba(198,203,223,.5);
+}
+
+.color-box__type-recette  {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #41A927;
+}
+
+.color-box__type-depense  {
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background: #D72C5B;
+}
+
+.box-mapping--title{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-mapping--content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.glyphs.css-mapping li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 30px 20px 0;
+    padding: 0;
+}
+
+.glyphs.css-mapping input {
+    margin: 10px;
+    padding: 8px;
+    line-height: 16px;
+    font-size: 16px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #d8e0e5;
+    border-radius: 5px;
+    background: #fff;
+    outline: 0;
+    float: right;
+}
